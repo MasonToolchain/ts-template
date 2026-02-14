@@ -8,6 +8,9 @@
     "sourceMap": true,
     "declaration": true,
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "resolveJsonModule": true,
     "allowJs": true,
     "strict": true,
